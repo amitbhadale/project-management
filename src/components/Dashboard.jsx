@@ -107,7 +107,6 @@ function Dashboard() {
                       required
                       value={columnId}
                       onChange={(e) => {
-                        console.log("e", e);
                         setColumnId(e.target.value);
                       }}
                     >
